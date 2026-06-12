@@ -7,4 +7,6 @@ jobs:
       - name: Print greeting
         run: echo "Hello everyone in the World!"
       - name: Print Goodbye
-        run: echo "Done - Bye!"
+        run: |
+          echo "Done - Bye!"
+          echo "This is the end of the workflow."
